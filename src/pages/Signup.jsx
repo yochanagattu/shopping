@@ -9,7 +9,7 @@ const Signup = () => {
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const signup = async (e) => {
+  const Signup = async (e) => {
     e.preventDefault();
     try {
       const usercred = await createUserWithEmailAndPassword(auth, email, password);
